@@ -24,7 +24,8 @@ const PrdoductContainer = () => {
   }, []);
 
   return (
-    <div className="bg-fuchsia-300 p-2">
+    <div className="bg-fuchsia-300 p-2 rounded-xl">
+      <h2 className="text-2xl font-bold">Product Container ! </h2>
       <ProductList products={products} loading={loading} error={error} />
     </div>
   );
